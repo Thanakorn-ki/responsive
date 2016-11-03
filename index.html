@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Responsive Css</title>
+    </head>
+    <body>
+        <style>
+            .bg {
+              background-color: #fffefe;
+              background-attachment: fixed;
+              background-repeat: no-repeat;
+              background-position: center center;
+              min-height: 100%;
+              background-size: cover;
+              -webkit-background-size: cover;
+              -moz-background-size: cover;
+              -o-background-size: cover;
+              background-size: cover;
+              padding-top: 30px;
+            }
+            /* mediem */
+            @media screen and (min-width: 550px) {
+              .bg {
+                background-color: #005fad;
+              }
+            }
+            @media screen and (min-width: 750px) {
+                .bg {
+                    background-color: #ffc105;
+                }
+            }
+            @media screen and (min-width: 1024px) {
+              .bg {
+                background-color: #31f619;
+              }
+            }
+        </style>
+        <div class="bg">
+            Resopnse
+        </div>
+    </body>
+</html>
